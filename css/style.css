@@ -88,3 +88,27 @@ body {
     color: hsl(25, 97%, 53%);
     cursor: pointer;
 }
+
+.hidden {
+    display: none;
+}
+
+.card-thank-you {
+    margin: 1rem auto 0 auto;
+    display: block;
+}
+
+.rating {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    font-size: 15px;
+    padding: .6rem;
+    border-radius: 20px;
+    width: 52%;
+    margin: 1rem auto;
+    opacity: .7;
+}
+
+.thank-you {
+    text-align: center;
+}
