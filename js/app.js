@@ -2,9 +2,12 @@ const cardRatings = document.querySelectorAll(".card-list-item");
 const btn = document.querySelector(".card-btn");
 const ratingNumber = document.querySelector(".rating");
 
+btn.disabled = true;
+
 cardRatings.forEach(rating => {
     rating.addEventListener('click', () => {
         setActive(rating);
+        btn.disabled = false;
         ratingNumber.innerHTML = `You selected ${rating.textContent} out of 5`;
     });
 });
