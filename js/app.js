@@ -23,7 +23,7 @@ CARD_RATINGS.forEach(rating => {
 });
 
 // Shows thank you div after submit
-BTN.addEventListener('click', (e) => {
+BTN.addEventListener('click', () => {
     const ratingCard = document.querySelector('.card-rating');
     const thanksCard = document.querySelector('.card-thanks');
 
