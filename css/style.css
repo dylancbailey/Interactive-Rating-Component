@@ -16,7 +16,8 @@ body {
     width: 100%;
     max-width: 300px;
     height: 325px;
-    background-color: hsl(213, 19%, 18%);
+    background: rgb(23,30,40);
+    background: linear-gradient(14deg, rgba(23,30,40,1) 0%, rgba(33,40,50,1) 90%); 
     padding: 1.7rem;
     border-radius: 20px;
 }
@@ -58,6 +59,10 @@ body {
     font-size: .8rem;
     transition: .3s ease;
 }
+.selected {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
 .card-list-item:hover {
     background-color: hsl(25, 97%, 53%);
     color: white;
@@ -68,7 +73,7 @@ body {
     width: 100%;
     background-color: hsl(25, 97%, 53%);
     color: white;
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 700;
     border: none;
     border-radius: 20px;
@@ -79,6 +84,7 @@ body {
 }
 
 .card-btn:hover {
-    opacity: .5;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
     cursor: pointer;
 }
