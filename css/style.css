@@ -104,11 +104,21 @@ body {
     font-size: 15px;
     padding: .6rem;
     border-radius: 20px;
-    width: 52%;
     margin: 1rem auto;
     opacity: .7;
+    text-align: center;
+    width: 52%;
 }
 
 .thank-you {
     text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        max-width: 350px;
+    }
+    .rating {
+        width: 44%;
+    }
 }
