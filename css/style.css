@@ -1,0 +1,39 @@
+body {
+    background-color: #141519;
+    font-family: 'Overpass', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 375px;
+    height: 400px;
+    background: rgb(18,20,23);
+    background: linear-gradient(9deg, rgba(18,20,23,1) 0%, rgba(37,45,55,1) 100%);
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.card-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.card-list-item {
+    display: inline-block;
+}
