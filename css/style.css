@@ -1,3 +1,9 @@
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --light-gray: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 18%);
+}
+
 body {
     background-color: #141519;
     font-family: 'Overpass', sans-serif;
@@ -25,7 +31,7 @@ body {
 .card-star {
     width: .9rem;
     height: .9rem;
-    background-color: hsl(213, 19%, 18%);
+    background-color: var(--dark-blue);
     padding: 15px;
     border-radius: 50%;
 }
@@ -37,7 +43,7 @@ body {
 }
 
 .card-text {
-    color: hsl(217, 12%, 63%);
+    color: var(--light-gray);
     font-size: 15px;
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
@@ -52,26 +58,26 @@ body {
 }
 
 .card-list-item {
-    color: hsl(217, 12%, 63%);
-    background-color: hsl(213, 19%, 18%);
+    color: var(--light-gray);
+    background-color: var(--dark-blue);
     padding: 15px 20px;
     border-radius: 50%;
     font-size: .8rem;
     transition: .3s ease;
 }
 .selected {
-    background-color: hsl(217, 12%, 63%);
+    background-color: var(--light-gray);
     color: white;
 }
 .card-list-item:hover {
-    background-color: hsl(25, 97%, 53%);
+    background-color: var(--orange);
     color: white;
     cursor: pointer;
 }
 
 .card-btn {
     width: 100%;
-    background-color: hsl(25, 97%, 53%);
+    background-color: var(--orange);
     color: white;
     font-size: .8rem;
     font-weight: 700;
@@ -85,7 +91,7 @@ body {
 
 .card-btn:hover {
     background-color: white;
-    color: hsl(25, 97%, 53%);
+    color: var(--orange);
     cursor: pointer;
 }
 
@@ -99,8 +105,8 @@ body {
 }
 
 .rating {
-    color: hsl(25, 97%, 53%);
-    background-color: hsl(213, 19%, 18%);
+    color: var(--orange);
+    background-color: var(--dark-blue);
     font-size: 15px;
     padding: .6rem;
     border-radius: 20px;
